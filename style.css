@@ -1,0 +1,82 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 10px 20px; 
+}
+.line {
+  border: none;
+  height: 1px;
+  background: #2a2424;
+  background: linear-gradient(to center, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+  opacity: 15%;
+}
+.navbar img {
+  max-height: 50px;
+}
+.main{
+    display: flex;
+}
+.huh{
+    margin-top: 0px;
+    border-radius: 10px;
+    height: 800px;
+    width: 75%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: lightblue;
+  
+}
+  .lefty {
+    margin-right: 20px; 
+  }
+  .righty {
+    margin-left: 20px; 
+  }
+
+  textarea{
+      background-color: whitesmoke;
+      border-radius: 10px;
+
+  }
+  #post-area{
+      border-style: none;
+  }
+
+  .up{
+      display: flex;
+      flex-direction: column;
+  }
+  .down{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 10px;
+  }
+  #button{
+      font-family: 'Poppins', sans-serif;
+      border-radius: 15px;
+      padding: 5px;
+      width: 60px;
+      color: white;
+      border-style: none;
+      background-color: rgb(66, 66, 248);
+  }
+  .chats{
+      padding-left: 20px;
+      width: 25%;
+  }
+
+
+  .post-main{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+  }
