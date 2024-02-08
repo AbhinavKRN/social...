@@ -11,7 +11,7 @@ post_btn.addEventListener('click',(e)=>{
             <div class="post-det">
                 <div class="post-right-btns">
                     <img src="https://d2beiqkhq929f0.cloudfront.net/public_assets/assets/000/064/031/original/profile_image.png?1706888739" alt="#">
-                    <h4>Naga Chaitanya @chay</h4>
+                    <h4>erty</h4>
                 </div>
             </div>
             
