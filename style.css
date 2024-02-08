@@ -1,6 +1,9 @@
-body{
+body {
     font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
 }
+
 .navigation {
     display: flex;
     justify-content: space-between;
@@ -8,88 +11,104 @@ body{
     background-color: white;
     padding: 10px 20px; 
 }
+
 .line {
-  border: none;
-  height: 1px;
-  background: #2a2424;
-  background: linear-gradient(to center, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
-  opacity: 15%;
+    border: none;
+    height: 1px;
+    background: #2a2424;
+    background: linear-gradient(to center, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+    opacity: 15%;
 }
-.navbar img {
-  max-height: 50px;
+
+.lefty {
+    margin-right: 20px; 
 }
-.main{
+
+.righty {
+    margin-left: 20px; 
+}
+
+.main {
     display: flex;
 }
-.huh{
-    margin-top: 0px;
+
+.huh {
+    margin-top: 20px;
     border-radius: 10px;
-    height: 800px;
+    height: 600px;
     width: 75%;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     background: lightblue;
-  
+    padding: 20px;
 }
-  .lefty {
-    margin-right: 20px; 
-  }
-  .righty {
-    margin-left: 20px; 
-  }
 
-  textarea{
-      background-color: whitesmoke;
-      border-radius: 10px;
+#new-post-input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+}
 
-  }
-  #post-area{
-      border-style: none;
-  }
+#new-post-button {
+    font-family: 'Poppins', sans-serif;
+    border-radius: 15px;
+    padding: 10px 20px;
+    color: white;
+    border: none;
+    background-color: rgb(66, 66, 248);
+    cursor: pointer;
+}
 
-  .up{
-      display: flex;
-      flex-direction: column;
-  }
-  .down{
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      padding: 10px;
-  }
-  #button{
-      font-family: 'Poppins', sans-serif;
-      border-radius: 15px;
-      padding: 5px;
-      width: 60px;
-      color: white;
-      border-style: none;
-      background-color: rgb(66, 66, 248);
-  }
-  .chats{
-      padding-left: 20px;
-      width: 25%;
-  }
+.chats {
+    padding-left: 20px;
+    width: 25%;
+}
 
+.post {
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #f5f5f5;
+}
 
-  .post-main{
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-  }
+.post p {
+    margin: 0;
+}
 
-.delete-button {
-    background-color: transparent;
+.has-comments {
+    border: 1px solid #ccc;
+}
+
+.comments-container {
+    margin-top: 10px;
+    padding: 10px;
+    border-top: 1px solid #ccc;
+}
+
+.comment {
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.comment p {
+    margin: 0;
+}
+
+.reply-actions button {
+    margin-right: 10px;
+    background: none;
     border: none;
     cursor: pointer;
-    font-size: 16px;
-    color: #ff0000; 
-    transition: color 0.3s ease;
+    font-size: 14px;
+    color: #333;
 }
 
-.delete-button:hover {
-    color: #cc0000;
+.reply-actions button:hover {
+    color: #666;
 }
