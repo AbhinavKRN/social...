@@ -78,3 +78,23 @@ window.addEventListener("load", () => {
     loadPostsFromLocalStorage();
     renderFeed();
 });
+
+function openCommentBox(postIndex) {
+    const commentText = prompt("Enter your comment:");
+    if (commentText !== null && commentText.trim() !== "") {
+        const newComment = {
+            text: commentText,
+            liked: false
+        };
+        posts[postIndex].comments.push(newComment);
+        renderFeed();
+    }
+}
+
+function openEditBox(postIndex) {
+    const editText = prompt("Edit your post:", posts[postIndex].text);
+    if (editText !== null && editText.trim() !== "") {
+        posts[postIndex].text = editText;
+        renderFeed();
+    }
+}
